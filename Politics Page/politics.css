@@ -1,0 +1,155 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+header{	
+	background-color: black;
+	color: white;
+}
+.website-header{
+	padding: 20px;
+	height: 90px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.website-header img{
+	float: left;
+	width: 75px;
+	height: 75px;	
+	margin: 0 30px;
+}
+.website-header h1{
+	margin: 5px 0;
+}
+.social-icons{
+	text-align: right;
+	flex-grow: 1;
+}
+.social-icons i{
+	margin: 0 7px;
+	cursor: pointer;
+}
+nav{
+	background-color: black;
+	height: 50px;
+	margin-bottom: 20px;
+}
+nav ul{
+	margin: 20px 0 0 0;
+}
+.navbar-nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+.navbar-nav li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+.navbar-nav li a:hover{
+	color:#e08b6c;
+}
+.breaking-news-section{
+	padding: 0 30px 0 60px;
+	display: flex;
+}
+#btext{
+	width: 200px;
+	font-size: 16px;
+	text-transform: uppercase;
+	color:#e08b6c;
+	font-weight: 600;
+	margin: auto 0;
+}
+.breaking-news{
+	padding: 30px;
+	color: #fff;
+	text-decoration: none;	
+	font-weight: 800;
+}
+.breaking-news:hover,.social-icons i:hover{
+	color:#e08b6c;
+	cursor: pointer;
+}
+.bntime{
+	display: inline-block;
+	color: rgba(255,255,255,0.5);
+	padding: 0 10px;
+	font-size: 12px;
+}
+
+.pany{
+	margin:20px;
+}
+
+.voting{
+	margin:20px 0;
+}
+
+.voting img{
+	float:left;
+	width:450px;
+	margin:10px;
+}
+
+.voting p{
+	font-size:20;
+	line-height:1;
+	text-align:justify;
+}
+
+.lineseparator{
+	width:70%;
+	height:1px;
+	background-color:silver;
+	margin:0 15%; 
+}
+
+.intpolitics{
+	margin:20px 0;
+}
+
+.intpolitics img{
+	float:right;
+	width:450px;
+	margin:10px;
+}
+
+.intpolitics p{
+	font-size:20;
+	line-height:1;
+	text-align:justify;
+}
+
+.mhvaccine{
+	margin:20px 0;
+}
+
+.mhvaccine img{
+	float:left;
+	width:450px;
+	margin:10px;
+}
+
+.mhvaccine p{
+	font-size:20;
+	line-height:1;
+	text-align:justify;
+}
+
+
+
+h1{
+	font-size:35;
+	font-weight:500;
+	font-style:
+}
+
+.backtotop{
+	text-align:left;
+	margin-left:90%;
+}
